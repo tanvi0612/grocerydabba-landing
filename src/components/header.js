@@ -98,11 +98,11 @@ const Header = ({ siteTitle }) => (
         <NavTab to="/about" activeClassName="active">
           About
         </NavTab> */}
-				<NavTab>
-					<Button primary onclick="$crisp.push(['do', 'chat:open'])">
-						Message Us
-					</Button>
-				</NavTab>
+				{/* <NavTab> */}
+				<Button primary onclick="$crisp.push(['do', 'chat:open'])">
+					Message Us
+				</Button>
+				{/* </NavTab> */}
 
 				<Sidebar />
 			</NavTabsWrap>

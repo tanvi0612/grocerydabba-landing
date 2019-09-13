@@ -148,11 +148,11 @@ const SplashScreenSection = (props) => {
 						</ul>
 						<ScrollAnimation animateIn="fadeIn" delay={1000}>
 							<ButtonWrap>
-								<Link to="http://bit.ly/GroceryDabba">
-									<Button fit primary onclick="$crisp.push(['do', 'chat:open'])">
-										Place your Order!
-									</Button>
-								</Link>
+								{/* <Link to="http://bit.ly/GroceryDabba"> */}
+								<Button fit primary onclick="$crisp.push(['do', 'chat:open'])">
+									Place your Order!
+								</Button>
+								{/* </Link> */}
 								<Button
 									fit
 									primary
