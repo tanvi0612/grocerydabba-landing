@@ -23,3 +23,5 @@ export const getSheetData = async sheetID => {
   }
   return parsedData
 }
+
+export const showChatBox = () => $crisp && $crisp.push(["do", "chat:open"])
