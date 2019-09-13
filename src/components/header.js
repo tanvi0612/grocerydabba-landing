@@ -5,6 +5,7 @@ import React from "react"
 
 import { Button } from "./sharedComponents"
 import Sidebar from "./sidebar"
+import { showChatBox } from "../components/helpers"
 
 import logo from "../assets/logo/logo.png"
 
@@ -99,7 +100,7 @@ const Header = ({ siteTitle }) => (
           About
         </NavTab> */}
         {/* <NavTab> */}
-        <Button primary onclick="$crisp.push(['do', 'chat:open'])">
+        <Button primary onClick={showChatBox}>
           Message Us
         </Button>
         {/* </NavTab> */}
